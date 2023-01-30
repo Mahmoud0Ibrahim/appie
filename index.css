@@ -1,0 +1,1282 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6% 0;
+    background-color:#c3c6f929;
+}
+.links
+{
+    display: flex; justify-content: space-between  ;
+    width: 50%;
+}
+ nav img{
+    height: 35px;
+    width: 12vw;
+    margin-right: 10%;
+    min-width: 100px;
+}
+nav a img{
+    min-width: 0;
+    width: 19px;
+    height: 15px;
+    
+    margin-top: 4px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 280px;
+}nav ul li 
+{
+    padding-right: 30px;
+}
+nav ul li a
+{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+nav button{
+    width: 120px;
+    height: 42px;
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    border: solid 2px red;
+    font-weight: 700;
+}
+.icon
+{
+    margin-top: 8px;
+    width: 42px;
+    display: none;
+    min-width: 0px;
+}
+header
+{
+    background-color:#c3c6f929;
+    padding-top: 130px;
+}
+.head_row
+{
+    display: flex;
+    justify-content: space-between;
+}
+img.hero
+{
+    width: 57vw;
+}
+.pepole{
+    display: flex;
+padding-top:45px;
+}
+.pepole img{
+    
+    width: 36px;
+    border-radius:50%;
+    border: solid 3px white;
+    height: 36px;
+}
+.head_text
+{
+    padding-left: 6%;
+}
+.Reade
+{
+    font-size: 4.2vw;
+    width: 100%;
+    letter-spacing: 0.4px;
+}.Reade span{
+    font-weight: 700;
+}
+.find
+{
+    font-size: 15px;
+    margin: -33px 0px 44px 0;
+}
+form  {
+    width: 286px;
+    height: 48px;
+    border-radius: 26px;
+    border: 0px solid white;
+    border-left: solid red 3.5px;
+    box-shadow: 3px 5px 20px 0px grey;
+    overflow: hidden;
+}
+input
+
+{
+    margin-top: 2px;
+    font-size: 15.5px;
+    border: none; background: transparent;
+}
+form img
+{
+    position: absolute;
+    margin: 7px 0 0 215px;
+    width: 39px;
+    height: 38px;
+}
+
+._30k
+{
+    margin-left: 30px;
+    margin-top: 0;
+    font-size: 10px;
+}
+._30k span{
+    display: block; font-size: 20px;
+    letter-spacing: -2px;font-weight: 800; 
+    padding-top:45px;
+}
+@media (min-width: 0px) and (max-width: 880px)
+{
+    img.icon
+{
+    width: 30px;
+    display: inline;
+    min-width: 0px;
+    height: 28px;
+    margin-top: 12px;
+    margin-right: -6px;
+}
+    header{
+        overflow: hidden;
+        padding-top: 50px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav button{
+        width: 112px;
+        height: 35px;
+        margin-right: 15px;
+        margin-top: 7px;
+        font-size: 13px
+    }div.head_row
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    form img {
+        position: absolute;
+        margin: 4px 0 0 71vw;
+        width: 70px;
+        height: 52px;
+    }
+   img.hero{
+    transform: translateX(100%);
+    overflow: hidden;
+    width: 50.1vw;
+    margin-top: -10px;
+   }
+  p.find{
+    font-size: 17px;
+    text-align: start;
+  }
+  p.Reade{
+font-size: 6vw;
+    text-align: start;
+  }
+  form {
+    width: 91%;
+    height: 55px;
+    
+    margin-right: 8%;
+}
+form ::placeholder
+{
+    font-size: 18px;
+}
+}
+
+@media (min-width: 0px) and (max-width: 570px)
+{
+    img.hero{
+        transform: translateX(118%);
+    overflow: hidden;
+    width: 46vw;
+    margin-top: -42px;
+}
+nav button{
+    width: 100px;
+    height: 32px;
+    margin-top: 8px;
+ 
+}form img {
+    position: absolute;
+    margin: 3px 0 0 57vw;
+    width: 49px;
+    height: 44px;
+}
+    .pepole img{
+    
+        width: 35px;
+        border-radius:50%;
+        border: solid 3px white;
+        height: 35px;
+    }
+    form  {
+        width: 82%;
+        height: 48px;
+        
+        margin:0 0% 0 5%;
+    }
+   
+    p.Reade{
+        font-size: 30px;
+        text-align: start;
+        width: 82%;
+        padding-bottom: 10px;
+          }
+          p.find{
+            padding-top: 10px;
+            font-size: 13px;
+            text-align: start;
+        }
+          p._30k
+{
+    margin-left: 16px;
+    margin-top: 0;
+    font-size: 10px;
+}
+p._30k span{
+    display: block; font-size: 19px;
+    letter-spacing: -2px;font-weight: 800; 
+    padding-top:45px;
+}
+
+div.pepole img{
+    
+    width: 30px;
+    border-radius:50%;
+    border: solid 3px white;
+    height: 30px;
+
+}}
+@media (min-width: 0px) and (max-width: 310px)
+{
+
+    form img {
+        position: absolute;
+    margin: 12px 0 0 55vw;
+    width: 30px;
+    height: 30px;
+}
+
+    form ::placeholder
+    {
+        font-size: 16px;
+    }
+    }
+/* ---------------- section_one------- */
+section
+{
+    padding: 1% 6%;
+}
+
+div.row_one
+{
+    display: flex;
+    justify-content: space-between;
+}
+button.viwe
+{
+    background: white;
+    border-radius: 40pc;
+    width: 200px;
+    border: solid 1px #808080c7;
+    font-weight: 600;
+    height: 42px;
+    font-size: 13px;
+    margin-top: 80px;
+    text-align: inherit;
+    padding: 0 0 0 34px;
+    transition: .5s;
+}
+button.viwe:hover
+    {
+        box-shadow: 0 4px 4px 0px #808080b3;
+        margin-top: 75px;
+    }
+    
+
+.viwe img{
+    position: absolute;
+    width: 23px;
+    position: absolute;
+    width: 20px;
+    margin: -1px 0 0 10px;
+}
+
+.larg-font
+{
+    font-size: 39px;
+    font-weight: 900;
+}
+.title_col p{
+    margin: 5px 0 20px 0;
+    margin-top: -18px;
+}
+
+.row_two
+{
+    display: grid;
+    padding-top: 70px;
+    text-align: left;
+    gap: 25px;
+    grid-template-columns: repeat(3,33.3%);
+    justify-content: center;
+    align-items: center;
+    padding: 70px 26px;
+}
+
+.fast
+{
+    border: 1px solid rgb(172 171 171 / 10%);
+    padding: 13%;
+    padding-bottom: 5%;
+    padding-right:10%;
+    
+}
+.fast p{
+    padding-bottom: 20px;color: rgb(95, 93, 93);
+}
+.fast img{
+    width: 50px;
+    border-radius: 50%;
+}
+.fast a{
+text-decoration: none;
+color:black;
+
+}
+.fast a img
+{
+    width: 22px;
+    position: absolute;
+    margin: 0 0 0 7px;
+}
+
+@media (min-width: 0px) and (max-width: 1000px)
+{
+    div.row_one
+    {
+        display: block;
+        text-align: center;
+    }
+    button.viwe
+{
+    width: 194px;
+    height: 48px;
+    margin-top: 29px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+    div.row_two
+    {
+     gap: 20px;
+        grid-template-columns: repeat(2,50%);  
+    }
+    div.fast
+{
+   
+    padding: 10%;
+    text-align: center;
+}
+div.fast a {
+    text-decoration: none;
+    color: black;
+    padding-right: 9px;
+}
+}
+
+@media (min-width: 0px) and (max-width: 680px)
+{
+    h1.larg-font{
+        font-size: 33px;
+    }
+    div.row_two
+    {
+        grid-template-columns: 1fr;  
+        gap: 20px;
+    }
+    div.fast a {
+        text-decoration: none;
+        color: black;
+        padding-right: 9px;
+    }
+    div.fast
+{
+   
+    padding: 6%;
+    text-align: center;
+}
+}
+
+.market{
+    width: 100%;
+    background:#c3c6f929;
+    display: flex;
+    height: 450px;
+   overflow: hidden;
+   justify-content: center;
+   margin-bottom: 35px;
+}
+.market h4
+{
+    color: red;
+    margin-bottom: -20px;
+}
+.market .larg-img
+{
+    width: 455px;
+    padding: 0% 2.5% 0% 2.5%;
+    height: 651px
+}
+.market-text
+{
+    padding-top: 42px;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+div.accept
+{
+    display: flex;
+}
+.designed
+{
+    width: 270px;
+    display: flex;
+}
+
+.designed img{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin-top: 25px;
+    padding-right: 8px;
+}
+.designed h1{
+    font-size: 21px;
+    letter-spacing: -.3px;
+}
+@media (min-width: 0px) and (max-width: 500px)
+{
+    h1.larg-font{
+        font-size: 32px;
+    }}
+@media (min-width: 0px) and (max-width: 1140px)
+{
+    div.market
+    {
+        height: auto;
+    }
+     img.larg-img
+    {
+        display: none;
+    }
+   div.market-text
+    {
+       text-align: center;
+    }
+   div.accept
+    {
+       display: block;
+       padding: 0 20px;
+    }
+    div.designed
+    {
+        text-align: left;
+        width:100%;
+        display: flex;
+    }
+
+
+}
+/* ---------------- section_two------- */
+section.two{
+    
+    padding:2% 4% 2% 6%;
+    background-color: rgb(1, 1, 52);
+    color: white;
+    margin-top: 20px;
+
+
+}
+
+.row-two
+
+{
+    display: flex;
+justify-content: center;
+    gap: 12%;
+}
+.tow-header
+{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 42%;
+    margin: auto
+}
+.two-text
+{   
+   
+    margin-top:95px;
+}
+.two-text p{
+    margin: -17px 0 35px 28px;
+    color: #b7b4b462;
+}
+.two img{
+    
+   
+    width: auto;
+    height: 600px;
+    
+}
+.dark{
+    padding-right: 17px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(120, 118, 118, 0.111);
+    padding-left: 11px;
+    transition: .3s;
+}
+div.dark:hover
+{
+    box-shadow: 0 0 4px 2px #ffffff96;
+}
+.two .c{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 22px;
+    margin-right: 8px;
+}
+@media (min-width: 0px) and (max-width: 1105px)
+{
+   section.two img{
+    
+        width: 350px;
+        height: 500px;
+        
+    }
+    .tow-header
+{
+  
+    width: 54%;
+    margin: auto
+}
+
+   div.row-two
+
+{   
+    gap: 10%;
+}
+div.two-text
+{   
+   
+    margin-top:40px;
+}
+}@media (min-width: 0px) and (max-width:850px)
+{
+div.two-text
+{
+    text-align: left;
+    margin-top: -37px;
+    padding-top:20px ;
+}
+.tow-header
+{
+  
+    width: 75%;
+    margin: auto
+}
+
+    div.row-two
+
+    {
+     text-align: center;   
+    display: block;
+    }
+
+}
+@media (min-width: 0px) and (max-width:500px)
+{
+    section.two img{
+    
+   
+        width: 250px;
+        height: 400px;
+        
+    }
+
+   .tow-header
+{
+  
+    width: 85%;
+    margin: auto
+}
+}
+
+/*<<<<<<<<<<<<three>>>>>>>>>*/
+
+.three
+{
+    padding: 3% 6%;
+}
+.active {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    padding: 23px;
+    gap: 3%;
+    }
+
+
+.k{
+padding: 5%;
+text-align: center;
+box-shadow: 0px 0px 5px 2px #80808094;
+}
+
+.num{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: monospace;
+    margin-top: -3px;
+}
+.k p{
+    margin-top: -10px;
+}
+@media (min-width: 0px) and (max-width: 830px)
+{
+    
+    div.k {
+        box-shadow: 0px 6px 9px 5px #80808057
+    }
+   div.active {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        padding: 23px;
+        gap: 25px;
+        }
+}
+@media (min-width: 0px) and (max-width: 600px)
+{
+   div.active {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 23px;
+        gap: 30px;
+        }
+}
+@media (min-width: 0px) and (max-width: 500px)
+{div.two-text {
+    
+    font-size: 14px;
+}}
+.video{
+padding-top: 30px;
+  display: flex;
+ justify-content: space-between;
+}
+.video-1
+{
+    width:  65%;
+}
+.video-1 img 
+{
+    
+    width: 100%;
+height: 360px;
+}
+.video-2
+{
+    width: 33%;
+   height: 350px;
+    margin-top: 5px;
+}
+ .video-1 .but{
+    margin-left: 12px;
+    width: 130px;
+    height: 40px;
+    position: relative;
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    border: .5 solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 10;
+  transition: .4s;
+}
+.video-1 :last-child span
+{
+ 
+    width: 0%;
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    border-radius: 33px;
+    left: -11.8px;
+    top: 0;
+    z-index: -1;
+    transition: .4s; padding-left: 12px;
+    
+}
+.video-1 :last-child:hover{
+    color : white;
+}
+.video-1 :last-child:hover span
+{
+    color: rgb(22, 18, 18);
+    width: 100%;
+}
+@media (min-width: 0px) and (max-width: 1300px)
+{
+    div.video button{
+       
+        width: 120px;
+        height: 37px;
+    }
+   img.video-2
+    {
+      
+       height: 300px;
+        
+    }
+div.video-1 img 
+{height: 310px;}
+}
+@media (min-width: 0px) and (max-width: 1100px)
+{
+    img.video-2
+    {height: 275px;  }
+div.video-1 img 
+{   height: 285px;}
+div.video h1
+{
+    padding-left: 10px;
+    font-size: 30px;
+}
+div.video p
+{   padding-left: 10px;
+    font-size: 16px;
+    color: gray;
+}
+}
+@media (min-width: 0px) and (max-width: 1000px)
+{
+    img.video-2
+    {height: 254px;  }
+div.video-1 img 
+{   height: 265px;}
+div.video h1
+{
+    padding-left: 10px;
+    font-size: 30px;
+}
+div.video p
+{   padding-left: 10px;
+    font-size: 16px;
+    color: gray;
+}
+}
+@media (min-width: 0px) and (max-width: 650px)
+{
+    div.video h1
+    {
+        padding-left: 10px;
+        font-size: 23px;
+    }
+    div.video p
+    {   padding-left: 10px;
+        font-size: 14px;
+        color: gray;
+    }
+    div.video{
+   
+        display: block;
+        
+        }
+        div.video-1
+{
+    width:  100%;
+}
+div.video-1 img 
+{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+img.video-2
+{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+   
+}
+}
+/* <<<<<<<<<<<<four>>>>>>>>>>>> */
+
+section.four{
+  padding:100px 6%;
+  background-color:#c3c6f929;
+}
+.four img{
+    width: 200px;
+    height: 60px;
+    
+}
+.four h1
+{
+    max-width: 405px;
+}
+@media (min-width: 0px) and (max-width: 480px)
+{
+
+    
+      section.four h1{
+          font-size: 28px;
+         
+      }
+      section.four p{
+          font-size: 14px;
+      }
+      section.four img{
+          width: 150px;
+          height: 40px;
+      }
+}
+@media (min-width: 0px) and (max-width: 380px)
+{
+    section.four h1{
+        font-size: 26px;
+       
+    }
+    section.four p{
+        font-size: 13px;
+    }
+    section.four img{
+        width: 120px;
+        height: 30px;
+    }
+}
+/* <<<<<<<<<<<<<<<<<<five>>>>>>>>>>>>> */
+.five
+{
+text-align: center;
+}
+@media (min-width: 0px) and (max-width: 700px)
+{
+section.five h1
+{
+    font-size: 35px;
+}
+    
+}
+.butttons{
+    border: 1px solid black;
+    width: 243px;
+    margin: auto;
+    height: 44px;
+    padding-top: 7px;
+    border-radius: 29px;
+}
+.butttons :first-child{
+    background-color: #ff3e66;
+    width: 112px;
+    height: 38px;
+    color: white;
+    border: none;
+    border-radius: 39px;
+    font-size: 17px;
+}
+.butttons :last-child{
+    background-color:white;
+    width: 112px;
+    height: 34px;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 17px;
+  
+}
+
+@media (min-width: 0px) and (max-width: 400px)
+{
+section.five h1
+{
+    font-size:30px;
+}
+
+div.butttons{
+  
+    width: 223px;
+    margin: auto;
+    height: 40px;
+    padding-top: 5px;
+    border-radius: 29px;
+}
+div.butttons :first-child
+{
+   
+    width: 96px;
+    height: 31px;
+   
+    font-size: 16px;
+}
+div.butttons :last-child
+{
+    width: 104px;
+    height: 34px;
+   
+    font-size: 16px
+}
+}
+div.prices
+{
+    text-align: left;
+    display: grid;
+    justify-content: space-between;
+    padding-top: 80px;
+    grid-template-columns: repeat(3,31.3%);
+}
+div.prices .price
+{
+ padding: 11% 8% 19%;
+position: relative;
+transition: .4s;
+overflow: hidden;
+border: .2px solid rgba(203, 200, 200, 0.237);
+}
+div.prices .price:hover{
+    box-shadow:0px 6px 18px 2px rgb(201, 199, 199);
+    border-top: 4.5px #ff3e66 solid;
+    border-radius: 5px;
+}
+div.prices img{
+    width: 25px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.price h3
+{
+    color: rgb(91, 91, 91);
+}
+.price p
+{
+    position: relative;
+    color: rgb(91, 91, 91);
+    margin-left: 0px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #80808070;
+}
+
+
+
+
+.price span
+{
+   font-size: 35px;
+   font-weight: 900;
+   color: black;
+   margin: 0px -1px 0px 18px;
+   padding-right: 5px;
+}
+
+span.dolar
+{
+    font-size: 27px;
+    margin-top: 5px;
+    position: absolute;
+    font-weight: 100;
+    color: #302f2f;
+    
+    margin: 8px 0px 0px -1px;
+}
+.prices button
+{
+    
+    width: 125px;
+    height: 37px;
+    border: .2px solid #8080808f;
+    margin-top: 25px;
+    margin-left: 2px;
+    transition: .3s;
+    background: white;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+.days
+{
+    padding-top: 20px;
+}
+.days span{
+    font-size: 16px;
+    font-weight: 100;
+    margin: 14px 0 0 6px;
+    position: absolute;
+}
+div.price:hover button{
+    background-color: #ff3e66;
+   color: white;
+   border: solid #ff3e66 2px;
+   
+}
+div.most{
+    width: 140px;
+    height: 31px;
+    color: white;
+    right: -158px;
+    background-color: rgba(0, 0, 255, 0.83);
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    border-radius: 20px;
+    font-size: 17.2px;
+    position: absolute;
+    transition: .4s;
+}
+div.price:hover div.most{
+    right: -27px;
+}
+@media (min-width: 0px) and (max-width: 785px)
+{
+    div.prices
+{
+    grid-template-columns: repeat(1,80%);
+    gap: 3%;
+    justify-content: center;
+}
+}
+/* ,,,,,,,,,,,,,,six>>>>>>>>>>>>>> */
+.six .parant{
+    background-color: rgb(0, 136, 255);
+    display: flex;
+    padding: 10% 10%;
+    justify-content: space-between;
+    gap: 75px;
+    margin-top: 45px;
+    color: white;
+}
+.parant :first-child{
+    text-align: center;
+}
+.parant :first-child p{
+font-size: 15px;
+
+}
+.parant :first-child :first-child{
+border-radius: 50%;    
+}
+.parant  :last-child :first-child{
+ text-align: left;
+
+
+}
+.parant :last-child h1{
+    margin: 46px 0 -12px 0px;
+}
+
+.stars img
+{ border-radius:50%;
+    width: 20px;
+    border: 20px;
+}
+@media (min-width: 0px) and (max-width: 1066px)
+{
+    div.parant :last-child h1{
+        margin: 28px 0 -12px 0px;
+    }   
+}
+@media (min-width: 0px) and (max-width: 910px)
+{
+    
+
+.six .parant{
+   
+    display: block;
+    padding: 10% 10%;
+    justify-content: center;
+  text-align: center;
+   
+}   
+div.parant  :last-child :first-child{
+    text-align: center;
+   }
+}
+
+div.sponsor{
+    text-align: center;
+    display: flex;
+    padding: 0 15%;
+    flex-wrap: wrap;
+    gap: 4%;
+    justify-content: space-evenly;
+}
+
+div.sponsor img
+{
+    box-shadow: 0px 0px 14px 9px #80808057;
+    margin-top: 23px;
+    margin-bottom: 10px;
+    padding: 19px;
+    width: 56px;
+}
+@media (min-width: 0px) and (max-width: 610px)
+{
+    div.sponsor img
+    {
+        width: 40px;
+    }
+  
+
+}
+@media (min-width: 0px) and (max-width: 440px)
+{
+    div.sponsor img
+    {
+        width: 25px;
+        padding: 16px;
+    }
+  
+
+}
+@media (min-width: 0px) and (max-width: 400px)
+{
+    h1.larg-font{
+        font-size: 24px;
+    }
+    div.sponsor img
+    {
+        width: 20px;
+        padding: 15px;
+    }
+
+}
+/* <<<<<<<<<<<<<<<<<<<<<<footer>>>>>>>>>>>> */
+
+footer{
+    padding-top: 35px;
+    margin-top: 20px;
+    background-color: #c3c6f929;
+    color:gray;
+}
+footer h1{
+    color: black;
+    
+    margin-top: 0px;
+}
+footer >:first-child{
+    display: flex;
+    padding: 4% 4% 1% 4%;
+    gap: 8%;
+    justify-content: space-between;
+    border-bottom: 2px rgb(172 170 170 / 26%) solid;
+}
+footer >:first-child > div{
+   width: 30%;
+}
+.contact div{
+    display: flex;
+}
+.contact img{
+    width: 27px;
+    height: 30px;
+    margin: 13px 5px 7px 12px;
+ 
+}
+.foter-img{
+    width: 25px;
+    height: 25px;padding: 2px;
+    background-color: white;
+    border-radius: 5px;box-shadow: 0px 1px 4px 1px #8080808f;
+}
+footer ul{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0;
+   
+}
+footer ul a{
+    color: gray;
+    text-decoration: none; 
+    
+}
+footer ul li{
+    padding-bottom: 10px; 
+}
+
+@media (min-width: 0px) and (max-width: 1086px)
+{
+    footer >:first-child{
+     
+        padding: 3%;
+        gap: 5px;
+        justify-content: center;
+     }
+     footer h1{
+    
+        font-size: 25px;
+     
+    }   
+}
+@media (min-width: 0px) and (max-width: 780px)
+{
+    footer >:first-child{
+     flex-direction: column;
+    
+        justify-content: center;
+     }
+     footer h1{
+    
+        font-size: 25px;
+     
+    }   
+    footer >:first-child > div{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+     }
+     div.foter-img
+     {
+        display: inline-flex;
+        box-shadow: 0px 1px 4px 1px #8080808f;
+     }
+     div.contact div{
+        display: flex;
+        justify-content: center;
+    }
+}
+.end
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 3.2%;
+    color: gray;
+}
+.end img{
+    width: 200px;
+    height: 45px;
+    padding-right: 10px;
+
+}@media (min-width: 0px) and (max-width: 780px)
+{
+    .end
+    {
+    flex-direction: column;
+    text-align: center;
+    } 
+}
